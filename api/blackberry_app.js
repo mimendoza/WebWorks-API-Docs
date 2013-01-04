@@ -16,6 +16,7 @@
 
 /**
  * @toc {System} Application
+ * @learns {Sample - Using Orientation} https://github.com/blackberry/BB10-WebWorks-Samples/tree/master/Orientation Sample that demonstrates how to use the Orientation API [BlackBerry on GitHub].
  * @featureID blackberry.app
  * @namespace The Application object provides functions and properties for the currently running application.
  * @example
