@@ -16,8 +16,8 @@
 
 /**
  * @toc {System} Application
- * @learns {Sample - Using Orientation} https://github.com/blackberry/BB10-WebWorks-Samples/tree/master/Orientation Sample that demonstrates how to use the Orientation API [BlackBerry on GitHub].
  * @featureID blackberry.app
+ * @learns {Sample - Using Orientation} https://github.com/blackberry/BB10-WebWorks-Samples/tree/master/Orientation Sample that demonstrates how to use the Orientation API [BlackBerry on GitHub].
  * @namespace The Application object provides functions and properties for the currently running application.
  * @example
  * &lt;script type="text/javascript"&gt;
@@ -26,7 +26,7 @@
  *      var details = document.getElementById("details");
  *      if (details) {
  *        var output = "&lt;table&gt;";
- *        output += "&lt;tr&gt;&lt;td&gt;&lt;b&gt;Author&lt;&lt;/td&gt;&lt;td&gt;" + blackberry.app.author + "&lt;/td&gt;&lt;/tr&gt;";
+ *        output += "&lt;tr&gt;&lt;td&gt;&lt;b&gt;Author&lt;/td&gt;&lt;td&gt;" + blackberry.app.author + "&lt;/td&gt;&lt;/tr&gt;";
  *        output += "&lt;tr&gt;&lt;td&gt;&lt;b&gt;Author Email&lt;/b&gt;&lt;/td&gt;&lt;td&gt;" + blackberry.app.authorEmail + "&lt;/td&gt;&lt;/tr&gt;";
  *        output += "&lt;tr&gt;&lt;td&gt;&lt;b&gt;Author URL&lt;/b&gt;&lt;/td&gt;&lt;td&gt;" + blackberry.app.authorURL + "&lt;/td&gt;&lt;/tr&gt;";
  *        output += "&lt;tr&gt;&lt;td&gt;&lt;b&gt;Copyright&lt;/b&gt;&lt;/td&gt;&lt;td&gt;" + blackberry.app.copyright + "&lt;/td&gt;&lt;/tr&gt;";
